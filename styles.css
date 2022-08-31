@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Paladin';
+  src: url('images/PaladinFLF.ttf');
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -11,25 +18,70 @@ body {
   font-size: 16px;
   display: flex;
   text-align: center;
+  justify-content: center;
  
+}
+
+.container {
+  display: flex;
 }
 
 .form-container {
   border: 2px solid grey;
+
 }
 
 .image-container {
-
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255)
 }
 .garden-stair {
  object-fit: cover;
  height: 100vh;
  width: 375px;
  
- 
+}
 
- 
+.credit {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+  font-size: 20px;
+  
+}
+
+.banner {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.246);
+  border: 1px solid black;
+  width: 30vh;
+  top: 30vh;
+  right: 23px;
+  padding: auto;
+}
+
+.banner p {
+  font-size: 40px;
+  font-family: 'paladin';
+  opacity: 70%;
+  
+
+}
+
+.letter-t {
+  width: 15vh;
+  height: 15vh;
+  opacity: 70%;
+  
+
 }
 
 
-
+.form-info {
+  border: 1px solid black;
+  padding: 60px;
+  text-align: center;
+  font-size: 23px;
+}
