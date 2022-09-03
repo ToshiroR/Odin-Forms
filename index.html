@@ -15,7 +15,7 @@
     
     <div class="banner">
       <img src="images/download-t.svg" alt="letter-t" class="letter-t">
-      <p class="banner-text">Tosh Con</p>
+      <p class="banner-text">Tosh Confrence</p>
     </div>
 
     <div class="credit">
@@ -41,38 +41,38 @@
             <div class="form-inputs">
 
               <div class="first-container">
-                <label for="first" id="first">First Name: 
+                <label for="first" id="first">*First Name: 
                   <input type="text" id="first" required>
                 </label>
               </div>
 
               <div class="last-container">
-                <label for="last" id="last">Last Name: 
+                <label for="last" id="last">*Last Name: 
                   <input type="text" id="last" required>
                 </label>
               </div>
 
               <div class="email-container">
-                <label for="email" id="email">Email: 
-                  <input type="email" id="email" required>
+                <label for="email" id="email">*Email: 
+                  <input type="email" id="email"  placeholder= 'joeDirt@Yahoo.com' required>
                 </label>
               </div>
 
               <div class="phone-container">
                 <label for="phone" id="phone">Phone Number: 
-                  <input type="number" id="phone">
+                  <input type="text" id="phone" placeholder='631-236-9007'pattern="[0-9]{7,12}">
                 </label>
               </div>
 
               <div class="pass-container">
-                <label for="password" id="password">Password: 
-                  <input type="password" id="password" required>
+                <label for="password" id="password">*Password: 
+                  <input type="password" id="password" pattern="[a-z]{4,12}" required>
                 </label>
               </div>
 
               <div class="con-pass-container">
-                <label for="con-password" id="con-password">Confirm Password: 
-                  <input type="password" id="con-password" required>
+                <label for="con-password" id="con-password">*Confirm Password: 
+                  <input type="password" id="con-password" pattern="[a-z]{4,12}" required>
                 </label>
               </div>
             </div>
@@ -81,9 +81,10 @@
           
       <div class="btn">
             <button type="submit"  class="submit">Submit</button>
+            
           </div>
 
-          <div>
+          <div class="login">
             <p>Already have an account? <a href="http://">Log In</a></p>
           </div>
           </form>
